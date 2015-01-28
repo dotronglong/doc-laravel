@@ -1,0 +1,2879 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class Illuminate\Database\Eloquent\Relations\BelongsToMany</title>
+
+	<link rel="stylesheet" href="resources/style.css?e99947befd7bf673c6b43ff75e9e0f170c88a60e">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+				<h3>Namespaces</h3>
+			<ul>
+				<li class="active">
+					<a href="namespace-Illuminate.html">
+						Illuminate<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-Illuminate.Auth.html">
+						Auth<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-Illuminate.Auth.Console.html">
+						Console					</a>
+
+						</li>
+				<li>
+					<a href="namespace-Illuminate.Auth.Reminders.html">
+						Reminders					</a>
+
+						</li>
+							</ul></li>
+				<li>
+					<a href="namespace-Illuminate.Cache.html">
+						Cache<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-Illuminate.Cache.Console.html">
+						Console					</a>
+
+						</li>
+							</ul></li>
+				<li>
+					<a href="namespace-Illuminate.Config.html">
+						Config					</a>
+
+						</li>
+				<li>
+					<a href="namespace-Illuminate.Console.html">
+						Console					</a>
+
+						</li>
+				<li>
+					<a href="namespace-Illuminate.Container.html">
+						Container					</a>
+
+						</li>
+				<li>
+					<a href="namespace-Illuminate.Cookie.html">
+						Cookie					</a>
+
+						</li>
+				<li class="active">
+					<a href="namespace-Illuminate.Database.html">
+						Database<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-Illuminate.Database.Capsule.html">
+						Capsule					</a>
+
+						</li>
+				<li>
+					<a href="namespace-Illuminate.Database.Connectors.html">
+						Connectors					</a>
+
+						</li>
+				<li>
+					<a href="namespace-Illuminate.Database.Console.html">
+						Console<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-Illuminate.Database.Console.Migrations.html">
+						Migrations					</a>
+
+						</li>
+							</ul></li>
+				<li class="active">
+					<a href="namespace-Illuminate.Database.Eloquent.html">
+						Eloquent<span></span>
+					</a>
+
+						<ul>
+				<li class="active">
+					<a href="namespace-Illuminate.Database.Eloquent.Relations.html">
+						Relations					</a>
+
+						</li>
+							</ul></li>
+				<li>
+					<a href="namespace-Illuminate.Database.Migrations.html">
+						Migrations					</a>
+
+						</li>
+				<li>
+					<a href="namespace-Illuminate.Database.Query.html">
+						Query<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-Illuminate.Database.Query.Grammars.html">
+						Grammars					</a>
+
+						</li>
+				<li>
+					<a href="namespace-Illuminate.Database.Query.Processors.html">
+						Processors					</a>
+
+						</li>
+							</ul></li>
+				<li>
+					<a href="namespace-Illuminate.Database.Schema.html">
+						Schema<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-Illuminate.Database.Schema.Grammars.html">
+						Grammars					</a>
+
+						</li>
+							</ul></li></ul></li>
+				<li>
+					<a href="namespace-Illuminate.Encryption.html">
+						Encryption					</a>
+
+						</li>
+				<li>
+					<a href="namespace-Illuminate.Events.html">
+						Events					</a>
+
+						</li>
+				<li>
+					<a href="namespace-Illuminate.Exception.html">
+						Exception					</a>
+
+						</li>
+				<li>
+					<a href="namespace-Illuminate.Filesystem.html">
+						Filesystem					</a>
+
+						</li>
+				<li>
+					<a href="namespace-Illuminate.Foundation.html">
+						Foundation<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-Illuminate.Foundation.Console.html">
+						Console					</a>
+
+						</li>
+				<li>
+					<a href="namespace-Illuminate.Foundation.Providers.html">
+						Providers					</a>
+
+						</li>
+				<li>
+					<a href="namespace-Illuminate.Foundation.Testing.html">
+						Testing					</a>
+
+						</li>
+							</ul></li>
+				<li>
+					<a href="namespace-Illuminate.Hashing.html">
+						Hashing					</a>
+
+						</li>
+				<li>
+					<a href="namespace-Illuminate.Html.html">
+						Html					</a>
+
+						</li>
+				<li>
+					<a href="namespace-Illuminate.Http.html">
+						Http					</a>
+
+						</li>
+				<li>
+					<a href="namespace-Illuminate.Log.html">
+						Log					</a>
+
+						</li>
+				<li>
+					<a href="namespace-Illuminate.Mail.html">
+						Mail<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-Illuminate.Mail.Transport.html">
+						Transport					</a>
+
+						</li>
+							</ul></li>
+				<li>
+					<a href="namespace-Illuminate.Pagination.html">
+						Pagination					</a>
+
+						</li>
+				<li>
+					<a href="namespace-Illuminate.Queue.html">
+						Queue<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-Illuminate.Queue.Capsule.html">
+						Capsule					</a>
+
+						</li>
+				<li>
+					<a href="namespace-Illuminate.Queue.Connectors.html">
+						Connectors					</a>
+
+						</li>
+				<li>
+					<a href="namespace-Illuminate.Queue.Console.html">
+						Console					</a>
+
+						</li>
+				<li>
+					<a href="namespace-Illuminate.Queue.Failed.html">
+						Failed					</a>
+
+						</li>
+				<li>
+					<a href="namespace-Illuminate.Queue.Jobs.html">
+						Jobs					</a>
+
+						</li>
+							</ul></li>
+				<li>
+					<a href="namespace-Illuminate.Redis.html">
+						Redis					</a>
+
+						</li>
+				<li>
+					<a href="namespace-Illuminate.Remote.html">
+						Remote					</a>
+
+						</li>
+				<li>
+					<a href="namespace-Illuminate.Routing.html">
+						Routing<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-Illuminate.Routing.Console.html">
+						Console					</a>
+
+						</li>
+				<li>
+					<a href="namespace-Illuminate.Routing.Generators.html">
+						Generators					</a>
+
+						</li>
+				<li>
+					<a href="namespace-Illuminate.Routing.Matching.html">
+						Matching					</a>
+
+						</li>
+							</ul></li>
+				<li>
+					<a href="namespace-Illuminate.Session.html">
+						Session<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-Illuminate.Session.Console.html">
+						Console					</a>
+
+						</li>
+							</ul></li>
+				<li>
+					<a href="namespace-Illuminate.Support.html">
+						Support<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-Illuminate.Support.Contracts.html">
+						Contracts					</a>
+
+						</li>
+				<li>
+					<a href="namespace-Illuminate.Support.Facades.html">
+						Facades					</a>
+
+						</li>
+				<li>
+					<a href="namespace-Illuminate.Support.Traits.html">
+						Traits					</a>
+
+						</li>
+							</ul></li>
+				<li>
+					<a href="namespace-Illuminate.Translation.html">
+						Translation					</a>
+
+						</li>
+				<li>
+					<a href="namespace-Illuminate.Validation.html">
+						Validation					</a>
+
+						</li>
+				<li>
+					<a href="namespace-Illuminate.View.html">
+						View<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-Illuminate.View.Compilers.html">
+						Compilers					</a>
+
+						</li>
+				<li>
+					<a href="namespace-Illuminate.View.Engines.html">
+						Engines					</a>
+
+						</li>
+							</ul></li>
+				<li>
+					<a href="namespace-Illuminate.Workbench.html">
+						Workbench<span></span>
+					</a>
+
+						<ul>
+				<li>
+					<a href="namespace-Illuminate.Workbench.Console.html">
+						Console					</a>
+
+						</li>
+							</ul></li></ul></li>
+				<li>
+					<a href="namespace-None.html">
+						None					</a>
+
+						</li>
+			</ul>
+		</div>
+
+		<hr>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-Illuminate.Database.Eloquent.Relations.BelongsTo.html">BelongsTo</a></li>
+				<li class="active"><a href="class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html">BelongsToMany</a></li>
+				<li><a href="class-Illuminate.Database.Eloquent.Relations.HasMany.html">HasMany</a></li>
+				<li><a href="class-Illuminate.Database.Eloquent.Relations.HasManyThrough.html">HasManyThrough</a></li>
+				<li><a href="class-Illuminate.Database.Eloquent.Relations.HasOne.html">HasOne</a></li>
+				<li><a href="class-Illuminate.Database.Eloquent.Relations.HasOneOrMany.html">HasOneOrMany</a></li>
+				<li><a href="class-Illuminate.Database.Eloquent.Relations.MorphMany.html">MorphMany</a></li>
+				<li><a href="class-Illuminate.Database.Eloquent.Relations.MorphOne.html">MorphOne</a></li>
+				<li><a href="class-Illuminate.Database.Eloquent.Relations.MorphOneOrMany.html">MorphOneOrMany</a></li>
+				<li><a href="class-Illuminate.Database.Eloquent.Relations.MorphPivot.html">MorphPivot</a></li>
+				<li><a href="class-Illuminate.Database.Eloquent.Relations.MorphTo.html">MorphTo</a></li>
+				<li><a href="class-Illuminate.Database.Eloquent.Relations.MorphToMany.html">MorphToMany</a></li>
+				<li><a href="class-Illuminate.Database.Eloquent.Relations.Pivot.html">Pivot</a></li>
+				<li><a href="class-Illuminate.Database.Eloquent.Relations.Relation.html">Relation</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text" placeholder="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-Illuminate.Database.Eloquent.Relations.html" title="Summary of Illuminate\Database\Eloquent\Relations"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class BelongsToMany</h1>
+
+
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+			<a href="class-Illuminate.Database.Eloquent.Relations.Relation.html"><span>Illuminate\Database\Eloquent\Relations\Relation</span></a>
+			
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by">
+<b><span>Illuminate\Database\Eloquent\Relations\BelongsToMany</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+	<div>
+		<h4>Direct known subclasses</h4>
+			<a href="class-Illuminate.Database.Eloquent.Relations.MorphToMany.html">Illuminate\Database\Eloquent\Relations\MorphToMany</a>
+	</div>
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-Illuminate.html">Illuminate</a>\<a href="namespace-Illuminate.Database.html">Database</a>\<a href="namespace-Illuminate.Database.Eloquent.html">Eloquent</a>\<a href="namespace-Illuminate.Database.Eloquent.Relations.html">Relations</a><br>
+		
+
+			<b>Located at</b> <a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#9-1065" title="Go to source code">Illuminate/Database/Eloquent/Relations/BelongsToMany.php</a>
+		<br>
+	</div>
+
+
+
+	<table class="summary methods" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#53-72" title="Go to source code">__construct</a>( <span><code><a href="class-Illuminate.Database.Eloquent.Builder.html">Illuminate\Database\Eloquent\Builder</a></code> <var>$query</var></span>, <span><code><a href="class-Illuminate.Database.Eloquent.Model.html">Illuminate\Database\Eloquent\Model</a></code> <var>$parent</var></span>, <span>string <var>$table</var></span>, <span>string <var>$foreignKey</var></span>, <span>string <var>$otherKey</var></span>, <span>string <var>$relationName</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			<p>Create a new has many relationship instance.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Create a new has many relationship instance.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$query</var></dt>
+					<dd></dd>
+					<dt><var>$parent</var></dt>
+					<dd></dd>
+					<dt><var>$table</var></dt>
+					<dd></dd>
+					<dt><var>$foreignKey</var></dt>
+					<dd></dd>
+					<dt><var>$otherKey</var></dt>
+					<dd></dd>
+					<dt><var>$relationName</var></dt>
+					<dd></dd>
+				</dl></div>
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Illuminate.Database.Eloquent.Relations.Relation.html#___construct">Illuminate\Database\Eloquent\Relations\Relation::__construct()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getResults" id="_getResults">
+
+		<td class="attributes"><code>
+			 public 
+
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getResults">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#74-82" title="Go to source code">getResults</a>( )</code>
+
+		<div class="description short">
+			<p>Get the results of the relationship.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get the results of the relationship.</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					mixed
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="wherePivot" id="_wherePivot">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html">Illuminate\Database\Eloquent\Relations\BelongsToMany</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_wherePivot">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#84-98" title="Go to source code">wherePivot</a>( <span>string <var>$column</var></span>, <span>string <var>$operator</var> = <span class="php-keyword1">null</span></span>, <span>mixed <var>$value</var> = <span class="php-keyword1">null</span></span>, <span>string <var>$boolean</var> = <span class="php-quote">'and'</span></span> )</code>
+
+		<div class="description short">
+			<p>Set a where clause for a pivot table column.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Set a where clause for a pivot table column.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$column</var></dt>
+					<dd></dd>
+					<dt><var>$operator</var></dt>
+					<dd></dd>
+					<dt><var>$value</var></dt>
+					<dd></dd>
+					<dt><var>$boolean</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><a href="class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html">Illuminate\Database\Eloquent\Relations\BelongsToMany</a></code>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="orWherePivot" id="_orWherePivot">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html">Illuminate\Database\Eloquent\Relations\BelongsToMany</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_orWherePivot">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#100-111" title="Go to source code">orWherePivot</a>( <span>string <var>$column</var></span>, <span>string <var>$operator</var> = <span class="php-keyword1">null</span></span>, <span>mixed <var>$value</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			<p>Set an or where clause for a pivot table column.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Set an or where clause for a pivot table column.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$column</var></dt>
+					<dd></dd>
+					<dt><var>$operator</var></dt>
+					<dd></dd>
+					<dt><var>$value</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><a href="class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html">Illuminate\Database\Eloquent\Relations\BelongsToMany</a></code>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="first" id="_first">
+
+		<td class="attributes"><code>
+			 public 
+
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_first">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#113-124" title="Go to source code">first</a>( <span>array <var>$columns</var> = <span class="php-keyword1">array</span>(<span class="php-quote">'*'</span>)</span> )</code>
+
+		<div class="description short">
+			<p>Execute the query and get the first result.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Execute the query and get the first result.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$columns</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					mixed
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="firstOrFail" id="_firstOrFail">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-Illuminate.Database.Eloquent.Model.html">Illuminate\Database\Eloquent\Model</a></code>|static
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_firstOrFail">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#126-139" title="Go to source code">firstOrFail</a>( <span>array <var>$columns</var> = <span class="php-keyword1">array</span>(<span class="php-quote">'*'</span>)</span> )</code>
+
+		<div class="description short">
+			<p>Execute the query and get the first result or throw an exception.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Execute the query and get the first result or throw an exception.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$columns</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><a href="class-Illuminate.Database.Eloquent.Model.html">Illuminate\Database\Eloquent\Model</a></code>|static
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code><a href="class-Illuminate.Database.Eloquent.ModelNotFoundException.html">Illuminate\Database\Eloquent\ModelNotFoundException</a></code>
+				</div>
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="get" id="_get">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-Illuminate.Database.Eloquent.Collection.html">Illuminate\Database\Eloquent\Collection</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_get">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#141-169" title="Go to source code">get</a>( <span>array <var>$columns</var> = <span class="php-keyword1">array</span>(<span class="php-quote">'*'</span>)</span> )</code>
+
+		<div class="description short">
+			<p>Execute the query as a "select" statement.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Execute the query as a "select" statement.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$columns</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><a href="class-Illuminate.Database.Eloquent.Collection.html">Illuminate\Database\Eloquent\Collection</a></code>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="paginate" id="_paginate">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-Illuminate.Pagination.Paginator.html">Illuminate\Pagination\Paginator</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_paginate">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#171-190" title="Go to source code">paginate</a>( <span>integer <var>$perPage</var> = <span class="php-keyword1">null</span></span>, <span>array <var>$columns</var> = <span class="php-keyword1">array</span>(<span class="php-quote">'*'</span>)</span> )</code>
+
+		<div class="description short">
+			<p>Get a paginator for the "select" statement.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get a paginator for the "select" statement.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$perPage</var></dt>
+					<dd></dd>
+					<dt><var>$columns</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><a href="class-Illuminate.Pagination.Paginator.html">Illuminate\Pagination\Paginator</a></code>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="hydratePivotRelation" id="_hydratePivotRelation">
+
+		<td class="attributes"><code>
+			 protected 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_hydratePivotRelation">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#192-209" title="Go to source code">hydratePivotRelation</a>( <span>array <var>$models</var></span> )</code>
+
+		<div class="description short">
+			<p>Hydrate the pivot table relationship on the models.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Hydrate the pivot table relationship on the models.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$models</var></dt>
+					<dd></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="cleanPivotAttributes" id="_cleanPivotAttributes">
+
+		<td class="attributes"><code>
+			 protected 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_cleanPivotAttributes">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#211-235" title="Go to source code">cleanPivotAttributes</a>( <span><code><a href="class-Illuminate.Database.Eloquent.Model.html">Illuminate\Database\Eloquent\Model</a></code> <var>$model</var></span> )</code>
+
+		<div class="description short">
+			<p>Get the pivot attributes from a model.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get the pivot attributes from a model.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$model</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addConstraints" id="_addConstraints">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addConstraints">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#237-247" title="Go to source code">addConstraints</a>( )</code>
+
+		<div class="description short">
+			<p>Set the base constraints on the relation query.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Set the base constraints on the relation query.</p>
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getRelationCountQuery" id="_getRelationCountQuery">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-Illuminate.Database.Eloquent.Builder.html">Illuminate\Database\Eloquent\Builder</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getRelationCountQuery">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#249-266" title="Go to source code">getRelationCountQuery</a>( <span><code><a href="class-Illuminate.Database.Eloquent.Builder.html">Illuminate\Database\Eloquent\Builder</a></code> <var>$query</var></span>, <span><code><a href="class-Illuminate.Database.Eloquent.Builder.html">Illuminate\Database\Eloquent\Builder</a></code> <var>$parent</var></span> )</code>
+
+		<div class="description short">
+			<p>Add the constraints for a relationship count query.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Add the constraints for a relationship count query.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$query</var></dt>
+					<dd></dd>
+					<dt><var>$parent</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><a href="class-Illuminate.Database.Eloquent.Builder.html">Illuminate\Database\Eloquent\Builder</a></code>
+				</div>
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Illuminate.Database.Eloquent.Relations.Relation.html#_getRelationCountQuery">Illuminate\Database\Eloquent\Relations\Relation::getRelationCountQuery()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getRelationCountQueryForSelfJoin" id="_getRelationCountQueryForSelfJoin">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-Illuminate.Database.Eloquent.Builder.html">Illuminate\Database\Eloquent\Builder</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getRelationCountQueryForSelfJoin">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#268-286" title="Go to source code">getRelationCountQueryForSelfJoin</a>( <span><code><a href="class-Illuminate.Database.Eloquent.Builder.html">Illuminate\Database\Eloquent\Builder</a></code> <var>$query</var></span>, <span><code><a href="class-Illuminate.Database.Eloquent.Builder.html">Illuminate\Database\Eloquent\Builder</a></code> <var>$parent</var></span> )</code>
+
+		<div class="description short">
+			<p>Add the constraints for a relationship count query on the same table.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Add the constraints for a relationship count query on the same table.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$query</var></dt>
+					<dd></dd>
+					<dt><var>$parent</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><a href="class-Illuminate.Database.Eloquent.Builder.html">Illuminate\Database\Eloquent\Builder</a></code>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getRelationCountHash" id="_getRelationCountHash">
+
+		<td class="attributes"><code>
+			 public 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getRelationCountHash">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#288-296" title="Go to source code">getRelationCountHash</a>( )</code>
+
+		<div class="description short">
+			<p>Get a relationship join table hash.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get a relationship join table hash.</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getSelectColumns" id="_getSelectColumns">
+
+		<td class="attributes"><code>
+			 protected 
+
+			<code><a href="class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html">Illuminate\Database\Eloquent\Relations\BelongsToMany</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getSelectColumns">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#298-312" title="Go to source code">getSelectColumns</a>( <span>array <var>$columns</var> = <span class="php-keyword1">array</span>(<span class="php-quote">'*'</span>)</span> )</code>
+
+		<div class="description short">
+			<p>Set the select clause for the relation query.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Set the select clause for the relation query.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$columns</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><a href="class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html">Illuminate\Database\Eloquent\Relations\BelongsToMany</a></code>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getAliasedPivotColumns" id="_getAliasedPivotColumns">
+
+		<td class="attributes"><code>
+			 protected 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getAliasedPivotColumns">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#314-334" title="Go to source code">getAliasedPivotColumns</a>( )</code>
+
+		<div class="description short">
+			<p>Get the pivot columns for the relation.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get the pivot columns for the relation.</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="hasPivotColumn" id="_hasPivotColumn">
+
+		<td class="attributes"><code>
+			 protected 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_hasPivotColumn">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#336-345" title="Go to source code">hasPivotColumn</a>( <span>string <var>$column</var></span> )</code>
+
+		<div class="description short">
+			<p>Determine whether the given column is defined as a pivot column.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Determine whether the given column is defined as a pivot column.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$column</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setJoin" id="_setJoin">
+
+		<td class="attributes"><code>
+			 protected 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setJoin">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#347-367" title="Go to source code">setJoin</a>( <span><code><a href="class-Illuminate.Database.Eloquent.Builder.html">Illuminate\Database\Eloquent\Builder</a></code>|null <var>$query</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			<p>Set the join clause for the relation query.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Set the join clause for the relation query.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$query</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<br>$this
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setWhere" id="_setWhere">
+
+		<td class="attributes"><code>
+			 protected 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setWhere">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#369-381" title="Go to source code">setWhere</a>( )</code>
+
+		<div class="description short">
+			<p>Set the where clause for the relation query.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Set the where clause for the relation query.</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<br>$this
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addEagerConstraints" id="_addEagerConstraints">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addEagerConstraints">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#383-392" title="Go to source code">addEagerConstraints</a>( <span>array <var>$models</var></span> )</code>
+
+		<div class="description short">
+			<p>Set the constraints for an eager load of the relation.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Set the constraints for an eager load of the relation.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$models</var></dt>
+					<dd></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="initRelation" id="_initRelation">
+
+		<td class="attributes"><code>
+			 public 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_initRelation">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#394-409" title="Go to source code">initRelation</a>( <span>array <var>$models</var></span>, <span>string <var>$relation</var></span> )</code>
+
+		<div class="description short">
+			<p>Initialize the relation on a set of models.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Initialize the relation on a set of models.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$models</var></dt>
+					<dd></dd>
+					<dt><var>$relation</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="match" id="_match">
+
+		<td class="attributes"><code>
+			 public 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_match">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#411-437" title="Go to source code">match</a>( <span>array <var>$models</var></span>, <span><code><a href="class-Illuminate.Database.Eloquent.Collection.html">Illuminate\Database\Eloquent\Collection</a></code> <var>$results</var></span>, <span>string <var>$relation</var></span> )</code>
+
+		<div class="description short">
+			<p>Match the eagerly loaded results to their parents.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Match the eagerly loaded results to their parents.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$models</var></dt>
+					<dd></dd>
+					<dt><var>$results</var></dt>
+					<dd></dd>
+					<dt><var>$relation</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="buildDictionary" id="_buildDictionary">
+
+		<td class="attributes"><code>
+			 protected 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_buildDictionary">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#439-460" title="Go to source code">buildDictionary</a>( <span><code><a href="class-Illuminate.Database.Eloquent.Collection.html">Illuminate\Database\Eloquent\Collection</a></code> <var>$results</var></span> )</code>
+
+		<div class="description short">
+			<p>Build model dictionary keyed by the relation's foreign key.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Build model dictionary keyed by the relation's foreign key.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$results</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="touch" id="_touch">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_touch">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#462-484" title="Go to source code">touch</a>( )</code>
+
+		<div class="description short">
+			<p>Touch all of the related models for the relationship.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Touch all of the related models for the relationship.</p>
+
+<p>E.g.: Touch all roles associated with this user.</p>
+
+
+
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Illuminate.Database.Eloquent.Relations.Relation.html#_touch">Illuminate\Database\Eloquent\Relations\Relation::touch()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getRelatedIds" id="_getRelatedIds">
+
+		<td class="attributes"><code>
+			 public 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getRelatedIds">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#486-498" title="Go to source code">getRelatedIds</a>( )</code>
+
+		<div class="description short">
+			<p>Get all of the IDs for the related models.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get all of the IDs for the related models.</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="save" id="_save">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-Illuminate.Database.Eloquent.Model.html">Illuminate\Database\Eloquent\Model</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_save">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#500-515" title="Go to source code">save</a>( <span><code><a href="class-Illuminate.Database.Eloquent.Model.html">Illuminate\Database\Eloquent\Model</a></code> <var>$model</var></span>, <span>array <var>$joining</var> = <span class="php-keyword1">array</span>()</span>, <span>boolean <var>$touch</var> = <span class="php-keyword1">true</span></span> )</code>
+
+		<div class="description short">
+			<p>Save a new model and attach it to the parent model.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Save a new model and attach it to the parent model.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$model</var></dt>
+					<dd></dd>
+					<dt><var>$joining</var></dt>
+					<dd></dd>
+					<dt><var>$touch</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><a href="class-Illuminate.Database.Eloquent.Model.html">Illuminate\Database\Eloquent\Model</a></code>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="saveMany" id="_saveMany">
+
+		<td class="attributes"><code>
+			 public 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_saveMany">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#517-534" title="Go to source code">saveMany</a>( <span>array <var>$models</var></span>, <span>array <var>$joinings</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			<p>Save an array of new models and attach them to the parent model.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Save an array of new models and attach them to the parent model.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$models</var></dt>
+					<dd></dd>
+					<dt><var>$joinings</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="create" id="_create">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-Illuminate.Database.Eloquent.Model.html">Illuminate\Database\Eloquent\Model</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_create">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#536-556" title="Go to source code">create</a>( <span>array <var>$attributes</var></span>, <span>array <var>$joining</var> = <span class="php-keyword1">array</span>()</span>, <span>boolean <var>$touch</var> = <span class="php-keyword1">true</span></span> )</code>
+
+		<div class="description short">
+			<p>Create a new instance of the related model.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Create a new instance of the related model.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$attributes</var></dt>
+					<dd></dd>
+					<dt><var>$joining</var></dt>
+					<dd></dd>
+					<dt><var>$touch</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><a href="class-Illuminate.Database.Eloquent.Model.html">Illuminate\Database\Eloquent\Model</a></code>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="createMany" id="_createMany">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-Illuminate.Database.Eloquent.Model.html">Illuminate\Database\Eloquent\Model</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_createMany">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#558-577" title="Go to source code">createMany</a>( <span>array <var>$records</var></span>, <span>array <var>$joinings</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			<p>Create an array of new instances of the related models.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Create an array of new instances of the related models.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$records</var></dt>
+					<dd></dd>
+					<dt><var>$joinings</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><a href="class-Illuminate.Database.Eloquent.Model.html">Illuminate\Database\Eloquent\Model</a></code>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="sync" id="_sync">
+
+		<td class="attributes"><code>
+			 public 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_sync">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#579-626" title="Go to source code">sync</a>( <span>array <var>$ids</var></span>, <span>boolean <var>$detaching</var> = <span class="php-keyword1">true</span></span> )</code>
+
+		<div class="description short">
+			<p>Sync the intermediate tables with a list of IDs or collection of models.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Sync the intermediate tables with a list of IDs or collection of models.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$ids</var></dt>
+					<dd></dd>
+					<dt><var>$detaching</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="formatSyncList" id="_formatSyncList">
+
+		<td class="attributes"><code>
+			 protected 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_formatSyncList">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#628-649" title="Go to source code">formatSyncList</a>( <span>array <var>$records</var></span> )</code>
+
+		<div class="description short">
+			<p>Format the sync list so that it is keyed by ID.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Format the sync list so that it is keyed by ID.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$records</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="attachNew" id="_attachNew">
+
+		<td class="attributes"><code>
+			 protected 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_attachNew">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#651-686" title="Go to source code">attachNew</a>( <span>array <var>$records</var></span>, <span>array <var>$current</var></span>, <span>boolean <var>$touch</var> = <span class="php-keyword1">true</span></span> )</code>
+
+		<div class="description short">
+			<p>Attach all of the IDs that aren't in the current array.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Attach all of the IDs that aren't in the current array.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$records</var></dt>
+					<dd></dd>
+					<dt><var>$current</var></dt>
+					<dd></dd>
+					<dt><var>$touch</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="updateExistingPivot" id="_updateExistingPivot">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_updateExistingPivot">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#688-708" title="Go to source code">updateExistingPivot</a>( <span>mixed <var>$id</var></span>, <span>array <var>$attributes</var></span>, <span>boolean <var>$touch</var> = <span class="php-keyword1">true</span></span> )</code>
+
+		<div class="description short">
+			<p>Update an existing pivot record on the table.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Update an existing pivot record on the table.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$id</var></dt>
+					<dd></dd>
+					<dt><var>$attributes</var></dt>
+					<dd></dd>
+					<dt><var>$touch</var></dt>
+					<dd></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="attach" id="_attach">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_attach">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#710-727" title="Go to source code">attach</a>( <span>mixed <var>$id</var></span>, <span>array <var>$attributes</var> = <span class="php-keyword1">array</span>()</span>, <span>boolean <var>$touch</var> = <span class="php-keyword1">true</span></span> )</code>
+
+		<div class="description short">
+			<p>Attach a model to the parent.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Attach a model to the parent.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$id</var></dt>
+					<dd></dd>
+					<dt><var>$attributes</var></dt>
+					<dd></dd>
+					<dt><var>$touch</var></dt>
+					<dd></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="createAttachRecords" id="_createAttachRecords">
+
+		<td class="attributes"><code>
+			 protected 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_createAttachRecords">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#729-751" title="Go to source code">createAttachRecords</a>( <span>array <var>$ids</var></span>, <span>array <var>$attributes</var></span> )</code>
+
+		<div class="description short">
+			<p>Create an array of records to insert into the pivot table.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Create an array of records to insert into the pivot table.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$ids</var></dt>
+					<dd></dd>
+					<dt><var>$attributes</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="attacher" id="_attacher">
+
+		<td class="attributes"><code>
+			 protected 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_attacher">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#753-772" title="Go to source code">attacher</a>( <span>integer <var>$key</var></span>, <span>mixed <var>$value</var></span>, <span>array <var>$attributes</var></span>, <span>boolean <var>$timed</var></span> )</code>
+
+		<div class="description short">
+			<p>Create a full attachment record payload.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Create a full attachment record payload.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd></dd>
+					<dt><var>$value</var></dt>
+					<dd></dd>
+					<dt><var>$attributes</var></dt>
+					<dd></dd>
+					<dt><var>$timed</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getAttachId" id="_getAttachId">
+
+		<td class="attributes"><code>
+			 protected 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getAttachId">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#774-790" title="Go to source code">getAttachId</a>( <span>mixed <var>$key</var></span>, <span>mixed <var>$value</var></span>, <span>array <var>$attributes</var></span> )</code>
+
+		<div class="description short">
+			<p>Get the attach record ID and extra attributes.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get the attach record ID and extra attributes.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$key</var></dt>
+					<dd></dd>
+					<dt><var>$value</var></dt>
+					<dd></dd>
+					<dt><var>$attributes</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="createAttachRecord" id="_createAttachRecord">
+
+		<td class="attributes"><code>
+			 protected 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_createAttachRecord">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#792-814" title="Go to source code">createAttachRecord</a>( <span>integer <var>$id</var></span>, <span>boolean <var>$timed</var></span> )</code>
+
+		<div class="description short">
+			<p>Create a new pivot attachment record.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Create a new pivot attachment record.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$id</var></dt>
+					<dd></dd>
+					<dt><var>$timed</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="setTimestampsOnAttach" id="_setTimestampsOnAttach">
+
+		<td class="attributes"><code>
+			 protected 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_setTimestampsOnAttach">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#816-838" title="Go to source code">setTimestampsOnAttach</a>( <span>array <var>$record</var></span>, <span>boolean <var>$exists</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			<p>Set the creation and update timestamps on an attach record.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Set the creation and update timestamps on an attach record.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$record</var></dt>
+					<dd></dd>
+					<dt><var>$exists</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="detach" id="_detach">
+
+		<td class="attributes"><code>
+			 public 
+
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_detach">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#840-871" title="Go to source code">detach</a>( <span>integer|array <var>$ids</var> = <span class="php-keyword1">array</span>()</span>, <span>boolean <var>$touch</var> = <span class="php-keyword1">true</span></span> )</code>
+
+		<div class="description short">
+			<p>Detach models from the relationship.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Detach models from the relationship.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$ids</var></dt>
+					<dd></dd>
+					<dt><var>$touch</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					integer
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="touchIfTouching" id="_touchIfTouching">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_touchIfTouching">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#873-883" title="Go to source code">touchIfTouching</a>( )</code>
+
+		<div class="description short">
+			<p>If we're touching the parent model, touch.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>If we're touching the parent model, touch.</p>
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="touchingParent" id="_touchingParent">
+
+		<td class="attributes"><code>
+			 protected 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_touchingParent">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#885-893" title="Go to source code">touchingParent</a>( )</code>
+
+		<div class="description short">
+			<p>Determine if we should touch the parent on sync.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Determine if we should touch the parent on sync.</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="guessInverseRelation" id="_guessInverseRelation">
+
+		<td class="attributes"><code>
+			 protected 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_guessInverseRelation">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#895-903" title="Go to source code">guessInverseRelation</a>( )</code>
+
+		<div class="description short">
+			<p>Attempt to guess the name of the inverse of the relation.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Attempt to guess the name of the inverse of the relation.</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="newPivotQuery" id="_newPivotQuery">
+
+		<td class="attributes"><code>
+			 protected 
+
+			<code><a href="class-Illuminate.Database.Query.Builder.html">Illuminate\Database\Query\Builder</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_newPivotQuery">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#905-920" title="Go to source code">newPivotQuery</a>( )</code>
+
+		<div class="description short">
+			<p>Create a new query builder for the pivot table.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Create a new query builder for the pivot table.</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><a href="class-Illuminate.Database.Query.Builder.html">Illuminate\Database\Query\Builder</a></code>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="newPivotStatement" id="_newPivotStatement">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-Illuminate.Database.Query.Builder.html">Illuminate\Database\Query\Builder</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_newPivotStatement">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#922-930" title="Go to source code">newPivotStatement</a>( )</code>
+
+		<div class="description short">
+			<p>Get a new plain query builder for the pivot table.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get a new plain query builder for the pivot table.</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><a href="class-Illuminate.Database.Query.Builder.html">Illuminate\Database\Query\Builder</a></code>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="newPivotStatementForId" id="_newPivotStatementForId">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-Illuminate.Database.Query.Builder.html">Illuminate\Database\Query\Builder</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_newPivotStatementForId">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#932-941" title="Go to source code">newPivotStatementForId</a>( <span>mixed <var>$id</var></span> )</code>
+
+		<div class="description short">
+			<p>Get a new pivot statement for a given "other" ID.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get a new pivot statement for a given "other" ID.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$id</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><a href="class-Illuminate.Database.Query.Builder.html">Illuminate\Database\Query\Builder</a></code>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="newPivot" id="_newPivot">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-Illuminate.Database.Eloquent.Relations.Pivot.html">Illuminate\Database\Eloquent\Relations\Pivot</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_newPivot">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#943-955" title="Go to source code">newPivot</a>( <span>array <var>$attributes</var> = <span class="php-keyword1">array</span>()</span>, <span>boolean <var>$exists</var> = <span class="php-keyword1">false</span></span> )</code>
+
+		<div class="description short">
+			<p>Create a new pivot model instance.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Create a new pivot model instance.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$attributes</var></dt>
+					<dd></dd>
+					<dt><var>$exists</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><a href="class-Illuminate.Database.Eloquent.Relations.Pivot.html">Illuminate\Database\Eloquent\Relations\Pivot</a></code>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="newExistingPivot" id="_newExistingPivot">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-Illuminate.Database.Eloquent.Relations.Pivot.html">Illuminate\Database\Eloquent\Relations\Pivot</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_newExistingPivot">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#957-966" title="Go to source code">newExistingPivot</a>( <span>array <var>$attributes</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			<p>Create a new existing pivot model instance.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Create a new existing pivot model instance.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$attributes</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><a href="class-Illuminate.Database.Eloquent.Relations.Pivot.html">Illuminate\Database\Eloquent\Relations\Pivot</a></code>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="withPivot" id="_withPivot">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_withPivot">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#968-981" title="Go to source code">withPivot</a>( <span>mixed <var>$columns</var></span> )</code>
+
+		<div class="description short">
+			<p>Set the columns on the pivot table to retrieve.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Set the columns on the pivot table to retrieve.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$columns</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<br>$this
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="withTimestamps" id="_withTimestamps">
+
+		<td class="attributes"><code>
+			 public 
+
+			<code><a href="class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html">Illuminate\Database\Eloquent\Relations\BelongsToMany</a></code>
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_withTimestamps">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#983-993" title="Go to source code">withTimestamps</a>( <span>mixed <var>$createdAt</var> = <span class="php-keyword1">null</span></span>, <span>mixed <var>$updatedAt</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			<p>Specify that the pivot table has creation and update timestamps.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Specify that the pivot table has creation and update timestamps.</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$createdAt</var></dt>
+					<dd></dd>
+					<dt><var>$updatedAt</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code><a href="class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html">Illuminate\Database\Eloquent\Relations\BelongsToMany</a></code>
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getRelatedFreshUpdate" id="_getRelatedFreshUpdate">
+
+		<td class="attributes"><code>
+			 public 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getRelatedFreshUpdate">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#995-1003" title="Go to source code">getRelatedFreshUpdate</a>( )</code>
+
+		<div class="description short">
+			<p>Get the related model's updated at column name.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get the related model's updated at column name.</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getHasCompareKey" id="_getHasCompareKey">
+
+		<td class="attributes"><code>
+			 public 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getHasCompareKey">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#1005-1013" title="Go to source code">getHasCompareKey</a>( )</code>
+
+		<div class="description short">
+			<p>Get the key for comparing against the parent key in "has" query.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get the key for comparing against the parent key in "has" query.</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getForeignKey" id="_getForeignKey">
+
+		<td class="attributes"><code>
+			 public 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getForeignKey">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#1015-1023" title="Go to source code">getForeignKey</a>( )</code>
+
+		<div class="description short">
+			<p>Get the fully qualified foreign key for the relation.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get the fully qualified foreign key for the relation.</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getOtherKey" id="_getOtherKey">
+
+		<td class="attributes"><code>
+			 public 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getOtherKey">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#1025-1033" title="Go to source code">getOtherKey</a>( )</code>
+
+		<div class="description short">
+			<p>Get the fully qualified "other key" for the relation.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get the fully qualified "other key" for the relation.</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getQualifiedParentKeyName" id="_getQualifiedParentKeyName">
+
+		<td class="attributes"><code>
+			 protected 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getQualifiedParentKeyName">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#1035-1043" title="Go to source code">getQualifiedParentKeyName</a>( )</code>
+
+		<div class="description short">
+			<p>Get the fully qualified parent key name.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get the fully qualified parent key name.</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+				<h4>Overrides</h4>
+				<div class="list"><code><a href="class-Illuminate.Database.Eloquent.Relations.Relation.html#_getQualifiedParentKeyName">Illuminate\Database\Eloquent\Relations\Relation::getQualifiedParentKeyName()</a></code></div>
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getTable" id="_getTable">
+
+		<td class="attributes"><code>
+			 public 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getTable">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#1045-1053" title="Go to source code">getTable</a>( )</code>
+
+		<div class="description short">
+			<p>Get the intermediate table for the relationship.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get the intermediate table for the relationship.</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getRelationName" id="_getRelationName">
+
+		<td class="attributes"><code>
+			 public 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getRelationName">#</a>
+		<code><a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#1055-1063" title="Go to source code">getRelationName</a>( )</code>
+
+		<div class="description short">
+			<p>Get the relationship name for the relationship.</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Get the relationship name for the relationship.</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Methods inherited from <a href="class-Illuminate.Database.Eloquent.Relations.Relation.html#methods">Illuminate\Database\Eloquent\Relations\Relation</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Illuminate.Database.Eloquent.Relations.Relation.html#___call">__call()</a>, 
+			<a href="class-Illuminate.Database.Eloquent.Relations.Relation.html#_createdAt">createdAt()</a>, 
+			<a href="class-Illuminate.Database.Eloquent.Relations.Relation.html#_getBaseQuery">getBaseQuery()</a>, 
+			<a href="class-Illuminate.Database.Eloquent.Relations.Relation.html#_getEager">getEager()</a>, 
+			<a href="class-Illuminate.Database.Eloquent.Relations.Relation.html#_getKeys">getKeys()</a>, 
+			<a href="class-Illuminate.Database.Eloquent.Relations.Relation.html#_getParent">getParent()</a>, 
+			<a href="class-Illuminate.Database.Eloquent.Relations.Relation.html#_getQuery">getQuery()</a>, 
+			<a href="class-Illuminate.Database.Eloquent.Relations.Relation.html#_getRelated">getRelated()</a>, 
+			<a href="class-Illuminate.Database.Eloquent.Relations.Relation.html#_noConstraints">noConstraints()</a>, 
+			<a href="class-Illuminate.Database.Eloquent.Relations.Relation.html#_rawUpdate">rawUpdate()</a>, 
+			<a href="class-Illuminate.Database.Eloquent.Relations.Relation.html#_relatedUpdatedAt">relatedUpdatedAt()</a>, 
+			<a href="class-Illuminate.Database.Eloquent.Relations.Relation.html#_updatedAt">updatedAt()</a>, 
+			<a href="class-Illuminate.Database.Eloquent.Relations.Relation.html#_wrap">wrap()</a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary properties" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="table" id="$table">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#11-16" title="Go to source code"><var>$table</var></a>
+
+			<div class="description short">
+				<p>The intermediate table for the relation.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>The intermediate table for the relation.</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$table" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="foreignKey" id="$foreignKey">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#18-23" title="Go to source code"><var>$foreignKey</var></a>
+
+			<div class="description short">
+				<p>The foreign key of the parent model.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>The foreign key of the parent model.</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$foreignKey" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="otherKey" id="$otherKey">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#25-30" title="Go to source code"><var>$otherKey</var></a>
+
+			<div class="description short">
+				<p>The associated key of the relation.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>The associated key of the relation.</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$otherKey" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="relationName" id="$relationName">
+		<td class="attributes"><code>
+			protected  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#32-37" title="Go to source code"><var>$relationName</var></a>
+
+			<div class="description short">
+				<p>The "name" of the relationship.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>The "name" of the relationship.</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$relationName" class="anchor">#</a>
+				<code></code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="pivotColumns" id="$pivotColumns">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#39-44" title="Go to source code"><var>$pivotColumns</var></a>
+
+			<div class="description short">
+				<p>The pivot table columns to retrieve.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>The pivot table columns to retrieve.</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$pivotColumns" class="anchor">#</a>
+				<code><span class="php-keyword1">array</span>()</code>
+			</div>
+		</td>
+	</tr>
+	<tr data-order="pivotWheres" id="$pivotWheres">
+		<td class="attributes"><code>
+			protected  
+			array
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Illuminate.Database.Eloquent.Relations.BelongsToMany.html#46-51" title="Go to source code"><var>$pivotWheres</var></a>
+
+			<div class="description short">
+				<p>Any pivot table restrictions.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Any pivot table restrictions.</p>
+
+			</div>
+		</td>
+		<td class="value">
+			<div>
+				<a href="#$pivotWheres" class="anchor">#</a>
+				<code>[]</code>
+			</div>
+		</td>
+	</tr>
+	</table>
+
+	<table class="summary inherited">
+	<caption>Properties inherited from <a href="class-Illuminate.Database.Eloquent.Relations.Relation.html#properties">Illuminate\Database\Eloquent\Relations\Relation</a></caption>
+	<tr>
+		<td><code>
+			<a href="class-Illuminate.Database.Eloquent.Relations.Relation.html#$constraints"><var>$constraints</var></a>, 
+			<a href="class-Illuminate.Database.Eloquent.Relations.Relation.html#$parent"><var>$parent</var></a>, 
+			<a href="class-Illuminate.Database.Eloquent.Relations.Relation.html#$query"><var>$query</var></a>, 
+			<a href="class-Illuminate.Database.Eloquent.Relations.Relation.html#$related"><var>$related</var></a>
+		</code></td>
+	</tr>
+	</table>
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>
